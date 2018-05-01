@@ -1,0 +1,34 @@
+@font-face { 
+  font-family: 'Roboto-Light'; 
+  src: 
+       url('../fonts/Roboto-Light.ttf')  format('truetype'); /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+  font-weight: normal; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: 'Roboto-Thin'; 
+  src: 
+       url('../fonts/Roboto-Thin.ttf')  format('truetype'); /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+  font-weight: normal; 
+  font-style: normal; 
+}
+.nav-item a{
+	text-decoration: none;
+	color: #66595c;
+	margin-top: 20px;
+	padding: 0px 50px;
+	font-size: 25px;
+	margin-bottom: 20px;
+	font-family: "Roboto-Thin";
+}
+.nav{
+	background-color: #dcd9d0;
+}
+
+.nav a:hover{
+	font-family: "Roboto-Light";
+}
+.mw-100{
+	width: 100%;
+	height: calc(100%-40px) ;
+}

@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'SiteController@index')->name('home');
+Route::get('/services', 'SiteController@services')->name('services');
+Route::get('/costs', 'SiteController@costs')->name('costs');
+Route::match(['get','post'],'/contacts', 'SiteController@contacts')->name('contacts');
+Route::match(['get','post'],'/test', 'SiteController@test')->name('test');
+

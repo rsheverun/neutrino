@@ -22,13 +22,35 @@
 	font-family: "Roboto-Thin";
 }
 .nav{
-	background-color: #dcd9d0;
+	/* background-color: #dcd9d0; */
+	background-color: #BCB8AF;
+	position: fixed;
+	width: 100%;
+	opacity: .8;
+	z-index: auto;
 }
 
 .nav a:hover{
 	font-family: "Roboto-Light";
 }
-.mw-100{
+ .mw-100{
+ 	
 	width: 100%;
-	height: calc(100%-40px) ;
+	
+} 
+.content{
+	background-color: #dcd9d0;
 }
+.content p{
+	    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+footer {
+	height: 65px;
+	background-color: #BCB8AF;
+}
+footer p{
+	text-align: right;
+}
+/* style form */
